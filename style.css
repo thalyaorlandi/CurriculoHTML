@@ -1,0 +1,89 @@
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	float: left;
+	margin-left: 5%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin: center;
+}
+
+body{
+	background-image: linear-gradient(#b9e5f0, #67c7de);
+}
+
+.cabecalho{
+	text-align: center;
+	margin-left: 5%;
+}
+
+.titulo-secao{
+	width: 90%;
+	margin: auto;
+	border-bottom: 1px solid black;
+}
+
+.corpo-secao{
+	width: 85%;
+	margin: auto;
+}
+
+.item-secao{
+	margin-bottom: 50px;
+}
+
+.botao{
+	text-decoration: none;
+	color: 	#343a40;
+	background-color: #299db9;
+	background-image: none;
+	border-color: #343a40;
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid grey;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.botao:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.botao:hover{
+	background-color: #bee7f1;
+	border-color: black;
+}
+
+.botao-contato{
+	text-align: center;
+}
+
+.linha:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}	
